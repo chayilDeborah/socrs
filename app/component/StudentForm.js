@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react';
 import user from '../assets/user.svg';
 import password from '../assets/password.svg'
+import Link from 'next/link';
 
 const StudentForm = () => {
     return (
@@ -29,7 +30,7 @@ const StudentForm = () => {
                         </div>
                         <input type="checkbox" id='student' className='w-[16px] h-[16px] rounded-[4px] bg-[#fff] border-[1px] border-[#CECECE] focus:ring-none focus:border-none' />
                         <label for="astype" className='text-[14px] font-light leading-[16.9px] text-[#344054] ml-[4px]   '>Remember Me</label>
-                        <button className='bg-[#00B3D1] rounded-[8px] opacity-[0.8] w-[353px] h-[42px] text-[16px] leading-[22.4px] hover:bg-[#1dcae5] mt-[18px] font-bold text-[#F2F4F7] mb-[16px] '>Login Now</button>
+                       <Link href='/student'> <button className='bg-[#00B3D1] rounded-[8px] opacity-[0.8] w-[353px] h-[42px] text-[16px] leading-[22.4px] hover:bg-[#1dcae5] mt-[18px] font-bold text-[#F2F4F7] mb-[16px] '>Login Now</button></Link>
                         <div className='text-[#344054] text-[16px] leading-[22.4px] mb-[47px] '>Can’t remember your password, <a href='#' className='text-[#00B3D1]'>Click Here</a></div>
                     </form>
                 </div>
