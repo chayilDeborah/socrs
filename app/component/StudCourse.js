@@ -1,4 +1,6 @@
-import React from 'react'
+import Image from 'next/image'
+import React from 'react';
+import courseform from '../assets/courseform.png'
 
 const StudCourse = () => {
   return (
@@ -19,7 +21,12 @@ const StudCourse = () => {
             <div>Semester/Session: 1ST [2023/2024]</div>
             <div>Phone/Email: 08114147940 [aniyikayeolamide@gmail.com]</div>
           </div>
-          <div className='font-bold text-[#344054] text-[16px] mt-[24px] '>Status: <i className='font-normal'>Pending...</i></div>
+          <div className='font-bold text-[#344054] text-[16px] mt-[24px] mb-[8px] '>Status: <i className='font-normal'>Pending...</i></div>
+          <div className='mb-[24px]'>
+            <Image src={courseform} alt='form ' className='' />
+          </div>
+          <div className='text-[#344054] text-[16px] mb-[90px]'>Do you have any issues on your  course form that needs rectification, contact your registration officer on mail at <i className='text-[#00B3D1] cursor-pointer'>xyznigga@gmail.com</i> or 
+call him on <i className='text-[#00B3D1] cursor-pointer '>+2349144835593</i> to schedule a meeting.</div>
         </div>
 
       </div>
