@@ -15,23 +15,23 @@ const StudentNav = () => {
             <Image src={student} alt='student' className='mx-auto' />
             <div className='text-[24px] font-bold text-[#344054] mt-[10px]  '>Aniyikaye Olamide</div>
             <div className='my-[64px] '>
-                <div className='flex'>
+                <div className='flex hover:text-[#00B3D1]'>
                     <Image src={dash} alt='dashboard' className='' />
                     <div className='text-[16px] font-semibold ml-[8px] '>Dashboard</div>
                 </div>
-                <div className='flex mt-[24px] '>
+                <div className='flex mt-[24px] hover:text-[#00B3D1] '>
                     <Image src={course} alt='dashboard' className='' />
                     <div className='text-[16px] font-semibold ml-[8px] '>Courses</div>
                 </div>
-                <div className='flex mt-[24px] '>
+                <div className='flex mt-[24px] hover:text-[#00B3D1] '>
                     <Image src={pay} alt='dashboard' className='' />
                     <div className='text-[16px] font-semibold ml-[8px] '>Payments</div>
                 </div>
-                <div className='flex mt-[24px] '>
+                <div className='flex mt-[24px] hover:text-[#00B3D1] '>
                     <Image src={notification} alt='dashboard' className='' />
                     <div className='text-[16px] font-semibold ml-[8px] '>Notification</div>
                 </div>
-                <div className='flex mt-[24px] '>
+                <div className='flex mt-[24px] hover:text-[#00B3D1] '>
                     <Image src={help} alt='dashboard' className='' />
                     <div className='text-[16px] font-semibold ml-[8px] '>Help and Support</div>
                 </div>
