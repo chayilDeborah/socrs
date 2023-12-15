@@ -1,5 +1,6 @@
 import React from 'react'
 import StudentNav from './StudentNav'
+import StudentPage from './StudentPage'
 
 const StudentDashboard = () => {
   return (
@@ -8,10 +9,7 @@ const StudentDashboard = () => {
     <div className='w-full'>
         <div className='flex'>
             <StudentNav />
-            <div>
-                bcjkcesbcjcbjscj
-                <div>ijcknsknesceknckes</div>
-            </div>
+            <StudentPage />
             
         </div>
 
