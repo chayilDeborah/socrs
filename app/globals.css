@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    background: #F2F4F7;
+}
 .admingrid {
     border-radius: 20px;
 border: 1px solid #FFF;

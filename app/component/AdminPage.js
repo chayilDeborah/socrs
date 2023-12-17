@@ -18,17 +18,17 @@ const AdminPage = () => {
                     <div className='admingrid w-[254px] h-[188px] text-[#344054] py-[24px] pl-[24px] '>
                         <Image src={studentno} alt='students' className='mb-[16px] ' />
                         <div  className='text-[16px] leading-[24px] mb-[8px] '>Total Students</div>
-                        <div className='text-[32px] font-semibold leading-[43.8px] -tracking-[0.8px] ' >82</div>
+                        <div className='text-[32px] font-semibold leading-[43.8px] -tracking-[0.8px] ' >17,568</div>
                     </div>
                     <div className='admingrid w-[254px] h-[188px] text-[#344054] py-[24px] pl-[24px] '>
                         <Image src={registered} alt='registered' className='mb-[16px] ' />
                         <div  className='text-[16px] leading-[24px] mb-[8px] '>Total Registered</div>
-                        <div className='text-[32px] font-semibold leading-[43.8px] -tracking-[0.8px] ' >36</div>
+                        <div className='text-[32px] font-semibold leading-[43.8px] -tracking-[0.8px] ' >5,069</div>
                     </div>
                     <div className='admingrid w-[254px] h-[188px] text-[#344054] py-[24px] pl-[24px] '>
                         <Image src={lecturers} alt='lecturers' className='mb-[16px] ' />
                         <div  className='text-[16px] leading-[24px] mb-[8px] '>Lecturers</div>
-                        <div className='text-[32px] font-semibold leading-[43.8px] -tracking-[0.8px] ' >16</div>
+                        <div className='text-[32px] font-semibold leading-[43.8px] -tracking-[0.8px] ' >342</div>
                     </div>
                 </div>
                 <div className='mt-[24px] mb-[40px] '>
