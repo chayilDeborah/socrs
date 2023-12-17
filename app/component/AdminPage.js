@@ -2,7 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import studentno from '../assets/studentno.svg'
 import lecturers from '../assets/lecturers.svg'
-import registered from '../assets/registered.svg'
+import registered from '../assets/registered.svg';
+import activity from '../assets/activity.png'
 
 const AdminPage = () => {
   return (
@@ -29,7 +30,10 @@ const AdminPage = () => {
                         <div  className='text-[16px] leading-[24px] mb-[8px] '>Lecturers</div>
                         <div className='text-[32px] font-semibold leading-[43.8px] -tracking-[0.8px] ' >16</div>
                     </div>
-
+                </div>
+                <div className='mt-[24px] mb-[40px] '>
+                    <div className='text-[24px] font-semibold '>Recent Activities</div>
+                    <Image src={activity} alt='activities' className='mt-[16px]' />
                 </div>
             </div>
 
