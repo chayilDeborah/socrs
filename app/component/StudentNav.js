@@ -14,7 +14,7 @@ const StudentNav = () => {
     <div className='flex justify-center bg-[#fff] border-[1px] border-[#CECECE] pt-[64px] pl-[70px] pr-[34px] '>
         <div>
             <Image src={student} alt='student' className='mx-auto' />
-            <div className='text-[24px] font-bold text-[#344054] mt-[10px] w-[218px] '>Aniyikaye Olamide</div>
+            <div className='text-[24px] font-bold text-[#344054] mt-[10px] w-[224px] '>Aniyikaye Olamide</div>
             <div className='my-[64px] '>
                 <div className='flex hover:text-[#00B3D1]'>
                     <Image src={dash} alt='dashboard' className='' />

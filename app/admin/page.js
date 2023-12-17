@@ -1,5 +1,5 @@
 import React from 'react'
-import AdminNav from '../component/AdminNav'
+import AdminDashboard from '../component/AdminDashboard'
 
 const Admin = () => {
   return (
@@ -7,7 +7,7 @@ const Admin = () => {
     <div className='flex justify-center bg-[#F2F4F7]'>
       <div className='lg:max-w-[1440px] w-full '>
         <div>
-          <AdminNav />
+        <AdminDashboard />
         </div>
 
       </div>
