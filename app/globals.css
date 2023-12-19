@@ -12,3 +12,9 @@ background: rgba(255, 255, 255, 0.75);
 box-shadow: 0px 12px 16px -4px rgba(12, 26, 36, 0.04);
 backdrop-filter: blur(13.600000381469727px);
 }
+.hodsearch {
+    border-radius: 4px 0px 0px 4px;
+border: 1px solid var(--Color---Grey-4, #BDBDBD);
+background: #FFF;
+box-shadow: 2px 2px 2px 0px rgba(29, 41, 57, 0.25);
+}

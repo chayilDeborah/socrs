@@ -1,5 +1,6 @@
 import React from 'react'
 import HodNav from './HodNav'
+import HodPage from './HodPage'
 
 const HodDashboard = () => {
   return (
@@ -8,6 +9,7 @@ const HodDashboard = () => {
         <div className='w-full'> 
         <div className='flex'>
             <HodNav />
+            <HodPage />
 
         </div>
 
