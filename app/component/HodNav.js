@@ -21,10 +21,10 @@ const HodNav = () => {
             <div className='text-[24px] font-bold text-[#344054] mt-[10px] w-[224px] '>Alexander Foster</div>
             <div className='text-[#344054] opacity-[0.5] text-[16px] font-bold text-center '>H.O.D</div>
             <div className='my-[64px] text-[#344054] '>
-            <div className='flex hover:text-[#00B3D1]'>
+           <Link href='/hod'> <div className='flex hover:text-[#00B3D1]'>
               <Image src={dash} alt='dashboard' className='' />
               <div className='text-[16px] font-semibold ml-[8px] '>Overview</div>
-            </div>
+            </div></Link>
             <div className='flex mt-[24px] hover:text-[#00B3D1] '>
               <Image src={students} alt='student' className='' />
               <div className='text-[16px] font-semibold ml-[8px] '>Students</div>
@@ -33,10 +33,10 @@ const HodNav = () => {
               <Image src={usertick} alt='lecturer' className='' />
               <div className='text-[16px] font-semibold ml-[8px] '>Lecturer</div>
             </div>
-            <Link href='/student/course'>
+            <Link href='/hod/register'>
               <div className='flex mt-[24px] hover:text-[#00B3D1] '>
                 <Image src={course} alt='register' className='' />
-                <div className='text-[16px] font-semibold ml-[8px] '>Registration</div>
+               <div className='text-[16px] font-semibold ml-[8px] '>Registration</div>
               </div>
             </Link>
             
