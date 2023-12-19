@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react';
-import filter from '../assets/filter.svg'
+import filter from '../assets/filter.svg';
+import hodcoursereg from '../assets/hodcoursereg.png'
 
 const HodCourse = () => {
     return (
@@ -20,13 +21,12 @@ const HodCourse = () => {
                                 <input type="checkbox" id='student' className='w-[16px] h-[16px] rounded-[4px] bg-[#fff] border-[1px] border-[#CECECE] focus:ring-none focus:border-none' />
                                 <label for="astype" className='text-[16px] text-[#344054] ml-[8px] font-medium   '>Sign All</label>
                             </div>
-                            <div>
+                            <div className='flex space-x-[5px] '>
                                 <Image src={filter} alt='filter' className='' />
-                                
-
+                                <i className='text-[16px] font-medium text-[#00B3D1] my-auto '>Filter</i>
                             </div>
-
                         </div>
+                        <Image src={hodcoursereg} alt='course-list' className='mt-[10px] mb-[100px] ' />
                     </div>
 
                 </div>
