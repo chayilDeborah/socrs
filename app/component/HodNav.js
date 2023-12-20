@@ -25,10 +25,12 @@ const HodNav = () => {
               <Image src={dash} alt='dashboard' className='' />
               <div className='text-[16px] font-semibold ml-[8px] '>Overview</div>
             </div></Link>
+            <Link href='/hod/student'>
             <div className='flex mt-[24px] hover:text-[#00B3D1] '>
               <Image src={students} alt='student' className='' />
               <div className='text-[16px] font-semibold ml-[8px] '>Students</div>
             </div>
+            </Link>
             <div className='flex mt-[24px] hover:text-[#00B3D1] '>
               <Image src={usertick} alt='lecturer' className='' />
               <div className='text-[16px] font-semibold ml-[8px] '>Lecturer</div>
