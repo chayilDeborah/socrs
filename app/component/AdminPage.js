@@ -11,7 +11,7 @@ const AdminPage = () => {
     <div className='flex justify-center w-full '>
         <div  className='w-[90%]'>
             <div className='text-[#344054]'>
-                <div className='text-[#344054] text-[24px] font-bold mb-[8px] mt-[64px] '>Welcome Back Tom,</div>
+                <div className='text-[#344054] text-[24px] font-bold mb-[8px] mt-[64px] '>Welcome Back Donald,</div>
                 <div className=' text-[16px] mb-[16px] '>Explore your admin dashboard now.</div>
                 <hr />
                 <div className='mt-[20px] grid grid-cols-3 '>
