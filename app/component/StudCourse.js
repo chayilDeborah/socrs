@@ -13,7 +13,7 @@ const StudCourse = () => {
           <hr className='text-[#344054] mb-[20px] '/>
           <div  className='text-[#344054] text-[20px]  font-semibold mb-[16px]'>My Courses: <span className='font-medium text-[#344054] opacity-[0.5] '>12 Courses | 64 Classes</span></div>
           <div className='grid grid-cols-1 space-y-[8px] text-[#344054] text-[16px] mt-[43px]'>
-            <div>Name: Aniyikaye Olamide Tehillah</div>
+            <div>Name: Olamide Deborah</div>
             <div>Matric Number: CSC/18/3357</div>
             <div>School: Computing</div>
             <div>Course of Study: Computer Science</div>

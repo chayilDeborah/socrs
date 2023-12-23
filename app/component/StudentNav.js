@@ -8,13 +8,14 @@ import notification from '../assets/notification.svg';
 import help from '../assets/help.svg';
 import logout from '../assets/logout.svg'
 import Link from 'next/link';
+import avatar from '../assets/avatar.svg'
 
 const StudentNav = () => {
   return (
     <div className='flex justify-center bg-[#fff] border-[1px] border-[#CECECE] pt-[64px] pl-[70px] pr-[34px] '>
         <div>
-            <Image src={student} alt='student' className='mx-auto' />
-            <div className='text-[24px] font-bold text-[#344054] mt-[10px] w-[224px] '>Aniyikaye Olamide</div>
+            <Image src={avatar} alt='student' className='mx-auto w-[154px] h-[154px] ' />
+            <div className='text-[24px] font-bold text-[#344054] mt-[10px] w-[224px] '>Olamide Deborah</div>
             <div className='my-[64px] '>
                 <Link href='/student'>
                 <div className='flex hover:text-[#00B3D1]'>
