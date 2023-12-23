@@ -14,6 +14,7 @@ const AdminPage = () => {
                 <div className='text-[#344054] text-[24px] font-bold mb-[8px] mt-[64px] '>Welcome Back Donald,</div>
                 <div className=' text-[16px] mb-[16px] '>Explore your admin dashboard now.</div>
                 <hr />
+                <div className='text-[#344054] text-[24px] font-semibold mb-[16px] mt-[20px]  '>Quick Stat</div>
                 <div className='mt-[20px] grid grid-cols-3 '>
                     <div className='admingrid w-[254px] h-[188px] text-[#344054] py-[24px] pl-[24px] '>
                         <Image src={studentno} alt='students' className='mb-[16px] ' />

@@ -38,7 +38,12 @@ const RegNav = () => {
                <div className='text-[16px] font-semibold ml-[8px] '>Registration</div>
               </div>
             </Link>
-            
+            <Link href='/regofficer/status'>
+            <div className='flex mt-[24px] hover:text-[#00B3D1] '>
+              <Image src={resources} alt='resource' className='' />
+              <div className='text-[16px] font-semibold ml-[8px] '>Status</div>
+            </div>
+            </Link>
             <div className='flex mt-[24px] hover:text-[#00B3D1] '>
               <Image src={notification} alt='notify' className='' />
               <div className='text-[16px] font-semibold ml-[8px] '>Notification</div>
@@ -47,19 +52,18 @@ const RegNav = () => {
               <Image src={settings} alt='setting' className='' />
               <div className='text-[16px] font-semibold ml-[8px] '>Settings</div>
             </div>
-            <div className='flex mt-[24px] hover:text-[#00B3D1] '>
-              <Image src={resources} alt='resource' className='' />
-              <div className='text-[16px] font-semibold ml-[8px] '>Resources</div>
-            </div>
+           
             <div className='flex mt-[24px] hover:text-[#00B3D1] '>
               <Image src={help} alt='help' className='' />
               <div className='text-[16px] font-semibold ml-[8px] '>Help and Support</div>
             </div>
           </div>
+          <Link href='/'>
           <div className='flex mb-[100px] '>
                 <Image src={logout} alt='logout' className='' />
                 <div className='text-[16px] text-[#F24E1E] ml-[8px] '>Logout</div>
             </div>
+            </Link>
         </div>
 
     </div>

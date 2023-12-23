@@ -4,7 +4,7 @@ import StudentDashboard from '../component/StudentDashboard'
 const Student = () => {
   return (
     <>
-    <div className='flex justify-center bg-[#F2F4F7]'>
+    <div className='flex justify-center lg:max-w-[1440px] mx-auto bg-[#F2F4F7]'>
       <div className='lg:max-w-[1440px] w-full '>
         <div>
             <StudentDashboard />

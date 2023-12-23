@@ -61,10 +61,12 @@ const HodNav = () => {
               <div className='text-[16px] font-semibold ml-[8px] '>Help and Support</div>
             </div>
           </div>
+          <Link href='/'>
           <div className='flex mb-[100px] '>
                 <Image src={logout} alt='logout' className='' />
                 <div className='text-[16px] text-[#F24E1E] ml-[8px] '>Logout</div>
             </div>
+            </Link>
         </div>
 
     </div>
