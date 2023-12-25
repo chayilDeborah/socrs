@@ -25,6 +25,7 @@ const AdminForm = () => {
                                 <Image src={password} alt='password' className='' />
                             </div>
                             <input
+                            type='password'
                                 className="border-[1px] border-[#CECECE] bg-[#F2F4F7] text-[16px] w-[353px] h-[42px] pl-[45px] leading-[22.4px] rounded-[4px] outline outline-none "
                                 placeholder="Password"
                             />
