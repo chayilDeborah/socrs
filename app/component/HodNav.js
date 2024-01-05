@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react';
-import hod from '../assets/hod.png'
+import avat from '../assets/avat.svg'
 import Link from 'next/link';
 import settings from '../assets/settings.svg'
 import students from '../assets/students.svg'
@@ -17,7 +17,7 @@ const HodNav = () => {
     <>
     <div className='flex justify-center bg-[#fff] border-[1px] border-[#CECECE] pt-[64px] pl-[70px] pr-[34px] '>
         <div>
-            <Image src={hod} alt='hod' className='mx-auto'/>
+            <Image src={avat} alt='hod' className='mx-auto'/>
             <div className='text-[24px] font-bold text-[#344054] mt-[10px] w-[224px] '>Alexander Foster</div>
             <div className='text-[#344054] opacity-[0.5] text-[16px] font-bold text-center '>H.O.D</div>
             <div className='my-[64px] text-[#344054] '>

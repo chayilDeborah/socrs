@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react';
-import admin from '../assets/admin.png'
+import avt from '../assets/avt.svg'
 import Link from 'next/link';
 import settings from '../assets/settings.svg'
 import students from '../assets/students.svg'
@@ -17,7 +17,7 @@ const RegNav = () => {
     <>
     <div className='flex justify-center bg-[#fff] border-[1px] border-[#CECECE] pt-[64px] pl-[70px] pr-[34px] '>
         <div>
-        <Image src={admin} alt='admin' className='mx-auto' />
+        <Image src={avt} alt='admin' className='mx-auto' />
           <div className='text-[24px] font-bold text-[#344054] mt-[10px] w-[224px] text-center '>Tom Keen </div>
             <div className='text-[#344054] opacity-[0.5] text-[16px] font-bold text-center '>Registration Officer</div>
             <div className='my-[64px] text-[#344054] '>
