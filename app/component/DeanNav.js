@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react';
-import dea from '../assets/dea.svg'
+import avt from '../assets/avt.svg'
 import Link from 'next/link';
 import settings from '../assets/settings.svg'
 import students from '../assets/students.svg'
@@ -19,8 +19,8 @@ const DeanNav = () => {
     <>
     <div className='flex justify-center bg-[#fff] border-[1px] border-[#CECECE] pt-[64px] pl-[70px] pr-[34px] '>
     <div>
-            <Image src={dea} alt='dean' className='mx-auto'/>
-            <div className='text-[24px] font-bold text-[#344054] mt-[10px] w-[224px] text-center '>Samar Navabi</div>
+            <Image src={avt} alt='dean' className='mx-auto'/>
+            <div className='text-[24px] font-bold text-[#344054] mt-[10px] w-[224px] text-center '>Prof B Alese</div>
             <div className='text-[#344054] opacity-[0.5] text-[16px] font-bold text-center '>Dean Of School</div>
             <div className='my-[64px] text-[#344054] '>
            <Link href='/dean'> <div className='flex hover:text-[#00B3D1]'>

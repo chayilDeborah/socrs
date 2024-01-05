@@ -18,7 +18,7 @@ const HodNav = () => {
     <div className='flex justify-center bg-[#fff] border-[1px] border-[#CECECE] pt-[64px] pl-[70px] pr-[34px] '>
         <div>
             <Image src={avat} alt='hod' className='mx-auto'/>
-            <div className='text-[24px] font-bold text-[#344054] mt-[10px] w-[224px] '>Alexander Foster</div>
+            <div className='text-[24px] font-bold text-[#344054] mt-[10px] w-[224px] '>Prof G.B Iwasokun</div>
             <div className='text-[#344054] opacity-[0.5] text-[16px] font-bold text-center '>H.O.D</div>
             <div className='my-[64px] text-[#344054] '>
            <Link href='/hod'> <div className='flex hover:text-[#00B3D1]'>

@@ -18,7 +18,7 @@ const RegNav = () => {
     <div className='flex justify-center bg-[#fff] border-[1px] border-[#CECECE] pt-[64px] pl-[70px] pr-[34px] '>
         <div>
         <Image src={avt} alt='admin' className='mx-auto' />
-          <div className='text-[24px] font-bold text-[#344054] mt-[10px] w-[224px] text-center '>Tom Keen </div>
+          <div className='text-[24px] font-bold text-[#344054] mt-[10px] w-[224px] text-center '>Prof K.G Akintola</div>
             <div className='text-[#344054] opacity-[0.5] text-[16px] font-bold text-center '>Registration Officer</div>
             <div className='my-[64px] text-[#344054] '>
            <Link href='/regofficer'> <div className='flex hover:text-[#00B3D1]'>
